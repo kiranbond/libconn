@@ -5,7 +5,7 @@ as a channel of bytestreams and as an RPC provider.
 
 The advantage of libconn connection over using standard http library is the fact that it uses a single
 TCP socket over which all the requests and responses flow. The client can also do RPC calls
-over the same connection. The most important reason to use this library is to excplicitly control (limit)
+over the same connection. The most important reason to use this library is to explicitly control (limit)
 the number of socket connections between the client and server.
 
 The library supports
